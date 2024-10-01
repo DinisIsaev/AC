@@ -1,8 +1,0 @@
-1. Visualize data (Import to know how many centroids to choose)
-2. Select k
-3. Initialize k centroids
-3.5. (Select a random point from dataset)
-4. See what points are closest to what centroid
-4.5. Check Euclidean distance between centroid and dataset points and select lowest
-5. Readjust centroid position
-6. Loop from step 4

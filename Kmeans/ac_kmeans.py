@@ -10,6 +10,10 @@ def initialize_centroids(K, X):
         centroids[i] = X[np.random.choice(range(m))]
     return centroids
 
+#Euclidean distance between two vectors
+def euclidean_distance(v1,v2):
+    return np.sqrt(np.sum(np.power(v1 - v2, 2)))
+
 #Access file and extract data
 file = pd.read_csv('P2_CLUSTER1.csv')
 X = file.values
