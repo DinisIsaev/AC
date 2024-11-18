@@ -40,7 +40,7 @@ def cluster_centroid_means(K, clusters, X):
 
 
 #Access file and extract data
-file = pd.read_csv('P2_CLUSTER4.csv')
+file = pd.read_csv('P2_CLUSTER2.csv')
 X = file.values
 c, l = np.shape(X)
 
@@ -52,7 +52,7 @@ plt.plot(X[:,0], X[:,1], "bo")
 plt.show()
 
 #Choose K
-K = 2
+K = 3
 
 #Run code
 centroids = initialize_centroids(K, X)
